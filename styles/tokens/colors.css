@@ -1,0 +1,93 @@
+/* ============================================================
+   Stack Overflow — Color tokens
+   Base palette ("Stacks" hue ramps) + semantic aliases.
+   Neutrals are intentionally WARM grays (a touch of yellow),
+   which is a signature of the Stack Overflow UI.
+   ============================================================ */
+:root {
+  /* ---- Black / warm-gray neutral ramp ---- */
+  --black-025: #fafafb;
+  --black-050: #f1f2f3;
+  --black-075: #e4e6e8;
+  --black-100: #d6d9dc;
+  --black-150: #c8ccd0;
+  --black-200: #bbc0c4;
+  --black-300: #9fa6ad;
+  --black-350: #9199a1;
+  --black-400: #848d95;
+  --black-500: #6a737c;
+  --black-600: #535a60;
+  --black-700: #3b4045;
+  --black-750: #2f3337;
+  --black-800: #242729;
+  --black-900: #0c0d0e;
+  --white: #ffffff;
+
+  /* ---- Blue (primary action + links) ---- */
+  --blue-050: #f2f8ff;
+  --blue-100: #cce5ff;
+  --blue-200: #add4ff;
+  --blue-300: #6cbbff;
+  --blue-400: #379fff;
+  --blue-500: #0a95ff;
+  --blue-600: #0077cc;
+  --blue-700: #0064bd;
+  --blue-800: #1b4f81;
+  --blue-900: #2a4e6c;
+
+  /* ---- Orange (THE brand color — "Powerups") ---- */
+  --orange-050: #fff7f2;
+  --orange-100: #fee3cd;
+  --orange-200: #ffc89b;
+  --orange-300: #ffac68;
+  --orange-400: #f48024;  /* canonical Stack Overflow orange */
+  --orange-500: #ed7000;
+  --orange-600: #d35f00;
+  --orange-700: #b54f00;
+  --orange-800: #934200;
+  --orange-900: #6e3100;
+
+  /* ---- Green (success / positive votes) ---- */
+  --green-100: #d9f0e3;
+  --green-200: #aedcc0;
+  --green-300: #7cc6a0;
+  --green-400: #5eba7d;
+  --green-500: #48a868;
+  --green-600: #3d8f5d;
+  --green-700: #2f6f44;
+  --green-800: #24593a;
+  --green-900: #16432a;
+
+  /* ---- Red (danger / errors) ---- */
+  --red-050: #fdf3f4;
+  --red-100: #f9d9da;
+  --red-200: #f0b5b9;
+  --red-300: #e38086;
+  --red-400: #d1383d;
+  --red-500: #c02d2e;
+  --red-600: #ab2627;
+  --red-700: #8b2222;
+  --red-800: #6c1c1d;
+  --red-900: #4d1717;
+
+  /* ---- Yellow (warnings / featured / "Hot meta") ---- */
+  --yellow-050: #fdf7e3;
+  --yellow-100: #fbf0cf;
+  --yellow-200: #f1e5bc;
+  --yellow-300: #e9d18a;
+  --yellow-400: #e9c63f;
+  --yellow-500: #eeb204;
+  --yellow-600: #cd9a02;
+  --yellow-700: #ab7e00;
+  --yellow-800: #80591f;
+  --yellow-900: #573e1a;
+
+  /* ---- Powder (the iconic light-blue used by Tags) ---- */
+  --powder-100: #ebf1f6;
+  --powder-200: #e1ecf4;  /* tag background */
+  --powder-300: #cee0ed;
+  --powder-400: #b3d3ea;
+  --powder-500: #6a9ec5;
+  --powder-700: #39739d;  /* tag text */
+  --powder-800: #2c5777;
+}

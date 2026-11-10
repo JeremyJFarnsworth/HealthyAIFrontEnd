@@ -1,0 +1,31 @@
+/* ============================================================
+   Stack Overflow — Spacing tokens
+   Stacks "su" (spacing unit) scale. Base unit 4px; named steps
+   skip to match the utility system (.p4, .p8, .p12 ...).
+   ============================================================ */
+:root {
+  --su0: 0; /* @kind spacing */
+  --su2: 2px;
+  --su4: 4px;
+  --su6: 6px;
+  --su8: 8px;
+  --su12: 12px;
+  --su16: 16px;
+  --su24: 24px;
+  --su32: 32px;
+  --su48: 48px;
+  --su64: 64px;
+  --su96: 96px;
+
+  /* Semantic spacing aliases */
+  --gap-xs: var(--su4);
+  --gap-sm: var(--su8);
+  --gap-md: var(--su16);
+  --gap-lg: var(--su24);
+  --gap-xl: var(--su32);
+
+  /* Common layout widths */
+  --content-max: 1264px; /* @kind spacing */   /* SO max page width */
+  --sidebar-left: 164px; /* @kind spacing */   /* left nav */
+  --sidebar-right: 300px; /* @kind spacing */  /* right rail */
+}

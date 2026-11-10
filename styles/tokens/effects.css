@@ -1,0 +1,40 @@
+/* ============================================================
+   Stack Overflow — Effects: radii, borders, shadows, motion, z
+   ============================================================ */
+:root {
+  /* Border radius — SO uses small, restrained radii */
+  --br-sm: 3px;    /* tags, small chips */
+  --br: 4px;       /* buttons, inputs (default) */
+  --br-md: 6px;
+  --br-lg: 9px;    /* cards, popovers */
+  --br-pill: 1000px;
+  --br-circle: 50%;
+
+  /* Border widths */
+  --bw: 1px;
+  --bw-thick: 2px;
+
+  /* Box shadows — soft, low-spread, neutral */
+  --bs-sm: 0 1px 2px hsla(210, 8%, 5%, 0.05), 0 1px 4px hsla(210, 8%, 5%, 0.05);
+  --bs-md: 0 1px 3px hsla(210, 8%, 5%, 0.08), 0 2px 6px hsla(210, 8%, 5%, 0.05);
+  --bs-lg: 0 1px 4px hsla(210, 8%, 5%, 0.09), 0 6px 12px hsla(210, 8%, 5%, 0.1);
+  --bs-xl: 0 10px 24px hsla(210, 8%, 5%, 0.12), 0 16px 48px hsla(210, 8%, 5%, 0.12);
+  /* Focus ring */
+  --bs-ring: 0 0 0 4px var(--primary-ring);
+  --bs-ring-danger: 0 0 0 4px hsla(358, 62%, 47%, 0.25);
+
+  /* Motion — fast, no bounce; ease-out for most UI */
+  --dur-fast: 100ms; /* @kind other */
+  --dur: 150ms; /* @kind other */
+  --dur-slow: 250ms; /* @kind other */
+  --ease: cubic-bezier(0.25, 0.46, 0.45, 0.94); /* @kind other */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); /* @kind other */
+
+  /* Z-index scale */
+  --z-nav: 100; /* @kind other */
+  --z-dropdown: 1000; /* @kind other */
+  --z-modal-backdrop: 1100; /* @kind other */
+  --z-modal: 1110; /* @kind other */
+  --z-tooltip: 1200; /* @kind other */
+  --z-toast: 1300; /* @kind other */
+}
